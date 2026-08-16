@@ -1,0 +1,1706 @@
+{
+  "city": "thunder-bay",
+  "bbox": [
+    48.28951,
+    -89.42693,
+    48.51491,
+    -89.15168
+  ],
+  "per_box": {
+    "port-arthur": {
+      "elements": 343,
+      "users": [
+        [
+          "Matthew Darwin",
+          251
+        ],
+        [
+          "eireidium",
+          70
+        ],
+        [
+          "wordbird",
+          18
+        ],
+        [
+          "living-wage",
+          1
+        ],
+        [
+          "Stuart_L",
+          1
+        ],
+        [
+          "Suhrid",
+          1
+        ],
+        [
+          "Thomas Skoropad",
+          1
+        ]
+      ],
+      "years": [
+        [
+          "2018",
+          251
+        ],
+        [
+          "2019",
+          1
+        ],
+        [
+          "2022",
+          69
+        ],
+        [
+          "2023",
+          2
+        ],
+        [
+          "2025",
+          19
+        ],
+        [
+          "2026",
+          1
+        ]
+      ]
+    },
+    "fort-william": {
+      "elements": 447,
+      "users": [
+        [
+          "Matthew Darwin",
+          379
+        ],
+        [
+          "eireidium",
+          61
+        ],
+        [
+          "biglake3",
+          2
+        ],
+        [
+          "ARitz Cracker",
+          1
+        ],
+        [
+          "imamapperguy",
+          1
+        ],
+        [
+          "kelvinc",
+          1
+        ],
+        [
+          "jsbrn",
+          1
+        ],
+        [
+          "b-jazz-bot",
+          1
+        ]
+      ],
+      "years": [
+        [
+          "2018",
+          377
+        ],
+        [
+          "2019",
+          2
+        ],
+        [
+          "2021",
+          2
+        ],
+        [
+          "2022",
+          62
+        ],
+        [
+          "2024",
+          1
+        ],
+        [
+          "2025",
+          2
+        ],
+        [
+          "2026",
+          1
+        ]
+      ]
+    },
+    "westfort": {
+      "elements": 216,
+      "users": [
+        [
+          "Matthew Darwin",
+          172
+        ],
+        [
+          "eireidium",
+          33
+        ],
+        [
+          "subligar",
+          5
+        ],
+        [
+          "andrewpmk",
+          2
+        ],
+        [
+          "wordbird",
+          2
+        ],
+        [
+          "trafficpayout",
+          1
+        ],
+        [
+          "biglake3",
+          1
+        ]
+      ],
+      "years": [
+        [
+          "2018",
+          173
+        ],
+        [
+          "2021",
+          5
+        ],
+        [
+          "2022",
+          26
+        ],
+        [
+          "2023",
+          7
+        ],
+        [
+          "2024",
+          2
+        ],
+        [
+          "2025",
+          3
+        ]
+      ]
+    }
+  },
+  "users": [
+    [
+      "Matthew Darwin",
+      802
+    ],
+    [
+      "eireidium",
+      164
+    ],
+    [
+      "wordbird",
+      20
+    ],
+    [
+      "subligar",
+      5
+    ],
+    [
+      "biglake3",
+      3
+    ],
+    [
+      "andrewpmk",
+      2
+    ],
+    [
+      "living-wage",
+      1
+    ],
+    [
+      "Stuart_L",
+      1
+    ],
+    [
+      "Suhrid",
+      1
+    ],
+    [
+      "Thomas Skoropad",
+      1
+    ],
+    [
+      "ARitz Cracker",
+      1
+    ],
+    [
+      "imamapperguy",
+      1
+    ],
+    [
+      "kelvinc",
+      1
+    ],
+    [
+      "jsbrn",
+      1
+    ],
+    [
+      "b-jazz-bot",
+      1
+    ],
+    [
+      "trafficpayout",
+      1
+    ]
+  ],
+  "years": [
+    [
+      "2018",
+      801
+    ],
+    [
+      "2019",
+      3
+    ],
+    [
+      "2021",
+      7
+    ],
+    [
+      "2022",
+      157
+    ],
+    [
+      "2023",
+      9
+    ],
+    [
+      "2024",
+      3
+    ],
+    [
+      "2025",
+      24
+    ],
+    [
+      "2026",
+      2
+    ]
+  ],
+  "kinds": {
+    "node": 990,
+    "way": 16
+  },
+  "changesets": [
+    {
+      "id": 56453431,
+      "user": "Matthew Darwin",
+      "created_at": "2018-02-18T02:16:18Z",
+      "changes": 9750,
+      "tags": {
+        "comment": "City of Thunder Bay => Thunder Bay",
+        "created_by": "JOSM/1.5 (13367 en)",
+        "source": "Discussion on talk-ca; NRCan"
+      },
+      "sampled_elements": 457
+    },
+    {
+      "id": 56453514,
+      "user": "Matthew Darwin",
+      "created_at": "2018-02-18T02:31:11Z",
+      "changes": 6337,
+      "tags": {
+        "comment": "City of Thunder Bay => Thunder Bay",
+        "created_by": "JOSM/1.5 (13367 en)",
+        "source": "Discussion on talk-ca; NRCan"
+      },
+      "sampled_elements": 343
+    },
+    {
+      "id": 172766888,
+      "user": "wordbird",
+      "created_at": "2025-10-02T21:46:45Z",
+      "changes": 88,
+      "tags": {
+        "changesets_count": "6667",
+        "comment": "road detail",
+        "created_by": "iD 2.36.0",
+        "host": "https://www.openstreetmap.org/edit",
+        "imagery_used": "Bing Maps Aerial",
+        "locale": "en-CA",
+        "source": "aerial imagery"
+      },
+      "sampled_elements": 18
+    },
+    {
+      "id": 126163785,
+      "user": "eireidium",
+      "created_at": "2022-09-14T06:33:45Z",
+      "changes": 36,
+      "tags": {
+        "changesets_count": "45408",
+        "comment": "Adding Objects in Port Arthur",
+        "created_by": "iD 2.21.1",
+        "host": "https://www.openstreetmap.org/edit",
+        "imagery_used": "Bing Maps Aerial",
+        "locale": "en",
+        "resolved:crossing_ways:building-highway": "1"
+      },
+      "sampled_elements": 14
+    },
+    {
+      "id": 126086188,
+      "user": "eireidium",
+      "created_at": "2022-09-12T11:41:24Z",
+      "changes": 50,
+      "tags": {
+        "changesets_count": "45306",
+        "comment": "Adding Objects in Port Arthur",
+        "created_by": "iD 2.21.1",
+        "host": "https://www.openstreetmap.org/edit",
+        "imagery_used": "Bing Maps Aerial",
+        "locale": "en",
+        "warnings:missing_tag:any": "1"
+      },
+      "sampled_elements": 13
+    },
+    {
+      "id": 124099433,
+      "user": "eireidium",
+      "created_at": "2022-07-26T14:29:49Z",
+      "changes": 26,
+      "tags": {
+        "changesets_count": "42294",
+        "comment": "Adding Objects in Fort William",
+        "created_by": "iD 2.21.1",
+        "host": "https://www.openstreetmap.org/edit",
+        "imagery_used": "Bing Maps Aerial",
+        "locale": "en"
+      },
+      "sampled_elements": 11
+    },
+    {
+      "id": 124099310,
+      "user": "eireidium",
+      "created_at": "2022-07-26T14:26:46Z",
+      "changes": 28,
+      "tags": {
+        "changesets_count": "42292",
+        "comment": "Adding Objects in Fort William",
+        "created_by": "iD 2.21.1",
+        "host": "https://www.openstreetmap.org/edit",
+        "imagery_used": "Bing Maps Aerial",
+        "locale": "en"
+      },
+      "sampled_elements": 9
+    },
+    {
+      "id": 127240418,
+      "user": "eireidium",
+      "created_at": "2022-10-09T10:18:09Z",
+      "changes": 52,
+      "tags": {
+        "changesets_count": "46972",
+        "comment": "Adding Objects in Port Arthur",
+        "created_by": "iD 2.22.0",
+        "host": "https://www.openstreetmap.org/edit",
+        "imagery_used": "Bing Maps Aerial",
+        "locale": "en"
+      },
+      "sampled_elements": 8
+    }
+  ],
+  "conventions": {
+    "sampled": 1006,
+    "keys": [
+      [
+        "addr:housenumber",
+        1006
+      ],
+      [
+        "addr:street",
+        1006
+      ],
+      [
+        "addr:city",
+        1000
+      ],
+      [
+        "source",
+        985
+      ],
+      [
+        "name",
+        19
+      ],
+      [
+        "addr:postcode",
+        16
+      ],
+      [
+        "amenity",
+        12
+      ],
+      [
+        "phone",
+        11
+      ],
+      [
+        "building",
+        10
+      ],
+      [
+        "website",
+        9
+      ],
+      [
+        "isced:level",
+        6
+      ],
+      [
+        "operator",
+        6
+      ],
+      [
+        "operator:type",
+        6
+      ],
+      [
+        "school:language",
+        6
+      ],
+      [
+        "fax",
+        5
+      ],
+      [
+        "operator:short",
+        4
+      ],
+      [
+        "operator:wikidata",
+        4
+      ],
+      [
+        "opening_hours",
+        3
+      ],
+      [
+        "shop",
+        3
+      ],
+      [
+        "wikipedia",
+        3
+      ],
+      [
+        "addr:province",
+        3
+      ],
+      [
+        "denomination",
+        2
+      ],
+      [
+        "religion",
+        2
+      ],
+      [
+        "email",
+        2
+      ],
+      [
+        "tourism",
+        2
+      ]
+    ],
+    "values": {
+      "addr:city": [
+        [
+          "Thunder Bay",
+          1000
+        ]
+      ],
+      "addr:country": [
+        [
+          "CA",
+          1
+        ]
+      ],
+      "addr:housenumber": [
+        [
+          "401",
+          15
+        ],
+        [
+          "135",
+          14
+        ],
+        [
+          "500",
+          12
+        ],
+        [
+          "100",
+          10
+        ],
+        [
+          "400",
+          10
+        ],
+        [
+          "301",
+          10
+        ],
+        [
+          "330",
+          9
+        ],
+        [
+          "49",
+          8
+        ]
+      ],
+      "addr:postcode": [
+        [
+          "P7A 6A9",
+          1
+        ],
+        [
+          "P7B4G5",
+          1
+        ],
+        [
+          "P7B 3T9",
+          1
+        ],
+        [
+          "P7B 4G4",
+          1
+        ],
+        [
+          "P7C 1B7",
+          1
+        ],
+        [
+          "P7C 2H1",
+          1
+        ],
+        [
+          "P7C 3R9",
+          1
+        ],
+        [
+          "P7C 1J9",
+          1
+        ]
+      ],
+      "addr:province": [
+        [
+          "Ontario",
+          3
+        ]
+      ],
+      "addr:street": [
+        [
+          "May Street North",
+          40
+        ],
+        [
+          "Red River Road",
+          38
+        ],
+        [
+          "Brodie Street North",
+          36
+        ],
+        [
+          "McKellar Street North",
+          35
+        ],
+        [
+          "Syndicate Avenue North",
+          34
+        ],
+        [
+          "Vickers Street North",
+          31
+        ],
+        [
+          "Victoria Avenue East",
+          27
+        ],
+        [
+          "Archibald Street North",
+          26
+        ]
+      ],
+      "building": [
+        [
+          "yes",
+          6
+        ],
+        [
+          "commercial",
+          2
+        ],
+        [
+          "residential",
+          1
+        ],
+        [
+          "civic",
+          1
+        ]
+      ],
+      "source": [
+        [
+          "CanVec 6.0 - NRCan",
+          985
+        ]
+      ]
+    },
+    "addr_combos": [
+      [
+        "addr:city+addr:housenumber+addr:street",
+        988
+      ],
+      [
+        "addr:city+addr:housenumber+addr:postcode+addr:street",
+        9
+      ],
+      [
+        "addr:housenumber+addr:postcode+addr:street",
+        4
+      ],
+      [
+        "addr:housenumber+addr:street",
+        2
+      ],
+      [
+        "addr:city+addr:housenumber+addr:postcode+addr:province+addr:street",
+        2
+      ],
+      [
+        "addr:city+addr:country+addr:housenumber+addr:postcode+addr:province+addr:street",
+        1
+      ]
+    ]
+  },
+  "wiki": {
+    "Canada:Ontario:Thunder Bay": {
+      "exists": false
+    },
+    "Thunder Bay": {
+      "exists": false
+    }
+  },
+  "recent_changesets": [
+    {
+      "id": "187538890",
+      "user": "rollercoasting",
+      "created_at": "2026-08-16T14:25:11Z",
+      "changes": 24,
+      "comment": "Add comprehensive Japanese localization tags (name:ja, ja-Latn, ja-Kana, ja-Hira) for 12 countries",
+      "source": "transliteration of existing name:ja; ALA-LC Romanization",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "187532621",
+      "user": "Ethan Grobin",
+      "created_at": "2026-08-16T12:21:53Z",
+      "changes": 1003,
+      "comment": "MANUAL Cleanup of unsquared four_square in US+CA partially, not all done now",
+      "source": "Esri World Imagery; Bing",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "187512449",
+      "user": "sammuell",
+      "created_at": "2026-08-16T00:10:53Z",
+      "changes": 17,
+      "comment": "delink incorrectly linked roads, this was causing routing engines to give directions involving illegal border crossing",
+      "source": "Esri World Imagery",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "187512203",
+      "user": "Thomasje",
+      "created_at": "2026-08-15T23:50:40Z",
+      "changes": 16,
+      "comment": "Dutch localizations timezones",
+      "source": "",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "187449307",
+      "user": "mikaelmore",
+      "created_at": "2026-08-14T15:25:09Z",
+      "changes": 14,
+      "comment": "Extended Trail based on aerial imaging",
+      "source": "local knowledge",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "187449195",
+      "user": "mikaelmore",
+      "created_at": "2026-08-14T15:22:55Z",
+      "changes": 215,
+      "comment": "Added trail names and information for Kamview Nordic Centre",
+      "source": "local knowledge;aerial imagery",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "187449091",
+      "user": "Hensor",
+      "created_at": "2026-08-14T15:20:38Z",
+      "changes": 23,
+      "comment": "puse un edificio en alaska",
+      "source": "",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "187430289",
+      "user": "woodpeck",
+      "created_at": "2026-08-14T09:11:47Z",
+      "changes": 190,
+      "comment": "delete historic=battlefield added by Jobigutenburg, see https://www.openstreetmap.org/changeset/179566483",
+      "source": "",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "187423545",
+      "user": "rollercoasting",
+      "created_at": "2026-08-14T06:23:23Z",
+      "changes": 16,
+      "comment": "Add comprehensive Japanese localization (name:ja, ja-Latn, ja-Kana, ja-Hira) and alt_names to major continent and ocean nodes",
+      "source": "standard geographic names; ALA-LC Romanization of Japanese",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "187408361",
+      "user": "mikaelmore",
+      "created_at": "2026-08-13T19:14:42Z",
+      "changes": 1,
+      "comment": "Road has now been chipsealed",
+      "source": "local knowledge",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "187378660",
+      "user": "Idahooligan-1",
+      "created_at": "2026-08-13T09:05:36Z",
+      "changes": 22,
+      "comment": "Created 3 benches, 3 unknown objects, and 5 other objects; Updated 4 shelters, 3 restaurants, and 4 other objects",
+      "source": "",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "187282487",
+      "user": "CjMalone",
+      "created_at": "2026-08-11T12:22:03Z",
+      "changes": 89,
+      "comment": "Add Mucho Burrito website",
+      "source": "Mucho Burrito website",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "187277646",
+      "user": "Malaalaa",
+      "created_at": "2026-08-11T10:42:54Z",
+      "changes": 3,
+      "comment": "name:wal added",
+      "source": "",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "187226387",
+      "user": "adster546",
+      "created_at": "2026-08-10T11:39:55Z",
+      "changes": 2,
+      "comment": "bicycle parking updates",
+      "source": "",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "187209584",
+      "user": "FreshlyTweezed",
+      "created_at": "2026-08-10T04:42:50Z",
+      "changes": 81,
+      "comment": "Ontario: Fix opening hours issues",
+      "source": "",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "187190791",
+      "user": "FreshlyTweezed",
+      "created_at": "2026-08-09T17:04:15Z",
+      "changes": 43,
+      "comment": "Ontario: Fix opening hours issues",
+      "source": "",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "187158029",
+      "user": "ZeLonewolf",
+      "created_at": "2026-08-09T00:47:21Z",
+      "changes": 86,
+      "comment": "Remove MSA and \u03bcSA boundary relations",
+      "source": "Community consensus to remove these objects from OSM as documented at https://community.openstreetmap.org/t/metropolitan-micropolitan-statistical-areas/146177",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "187143844",
+      "user": "fixedsun",
+      "created_at": "2026-08-08T16:58:22Z",
+      "changes": 6,
+      "comment": "Adding data with #MapComplete for theme #aed",
+      "source": "",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "187138364",
+      "user": "fixedsun",
+      "created_at": "2026-08-08T14:52:39Z",
+      "changes": 1,
+      "comment": "Specify whether there are cycleways",
+      "source": "survey",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "187138339",
+      "user": "fixedsun",
+      "created_at": "2026-08-08T14:52:00Z",
+      "changes": 1,
+      "comment": "Survey whether places have seating",
+      "source": "survey",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "187138106",
+      "user": "fixedsun",
+      "created_at": "2026-08-08T14:46:21Z",
+      "changes": 2,
+      "comment": "Specify whether roads have sidewalks",
+      "source": "survey",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "187099929",
+      "user": "bibi6",
+      "created_at": "2026-08-07T17:43:36Z",
+      "changes": 14,
+      "comment": "Remove/replace isolated deprecated tags (bridge=arch, hazard=bicycle)",
+      "source": "",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "187097338",
+      "user": "bibi6",
+      "created_at": "2026-08-07T16:48:06Z",
+      "changes": 35,
+      "comment": "Remove/replace isolated deprecated tags (shop=gallery) and add buildings",
+      "source": "deprecated features;Bing",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "187065702",
+      "user": "ecstrema",
+      "created_at": "2026-08-07T05:07:02Z",
+      "changes": 4,
+      "comment": "Created an information; Updated a bicycle_repair_station, a picnic_table, and a water_tap",
+      "source": "",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "187064285",
+      "user": "samesamasalways",
+      "created_at": "2026-08-07T03:50:09Z",
+      "changes": 2,
+      "comment": "Added Tertiary",
+      "source": "local knowledge",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "187064202",
+      "user": "samesamasalways",
+      "created_at": "2026-08-07T03:46:36Z",
+      "changes": 1,
+      "comment": "Added Tertiary",
+      "source": "local knowledge",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "187063652",
+      "user": "DENelson83",
+      "created_at": "2026-08-07T03:15:13Z",
+      "changes": 70,
+      "comment": "Standardize tagging for FAA area control centers",
+      "source": "Wikipedia; FAA; City of Memphis",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "187039721",
+      "user": "bibi6",
+      "created_at": "2026-08-06T15:04:44Z",
+      "changes": 26,
+      "comment": "Remove/repalce isolated deprecated tags (landuse=pond; natural=marsh)",
+      "source": "deprecated features",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186989542",
+      "user": "Rockurr",
+      "created_at": "2026-08-05T16:34:49Z",
+      "changes": 1,
+      "comment": "Updated a parking",
+      "source": "",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186936165",
+      "user": "Tuwewanzi",
+      "created_at": "2026-08-04T16:52:05Z",
+      "changes": 25,
+      "comment": "Dakota and Lakota Canadian Province and Territory Names from D\u00fazaha\u019e M\u00e1niwi\u019e writings (2007)",
+      "source": "\"Dakota Iapi Ehdakub\" Doris Pratt (D\u00fazaha\u019e M\u00e1ni Wi\u019e) 2007",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186838725",
+      "user": "wolfy1339",
+      "created_at": "2026-08-02T22:21:19Z",
+      "changes": 5,
+      "comment": "Invalid changing phone number format, and changing https to http",
+      "source": "",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186836665",
+      "user": "Saad chaoui",
+      "created_at": "2026-08-02T21:26:08Z",
+      "changes": 15,
+      "comment": "\u0625\u0636\u0627\u0641\u0629 \u0627\u0644\u0644\u063a\u0629 \u0627\u0644\u0623\u0645\u0627\u0632\u064a\u063a\u064a\u0629 (name:ber)",
+      "source": "",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186815199",
+      "user": "Adam Ferreira",
+      "created_at": "2026-08-02T14:54:20Z",
+      "changes": 13,
+      "comment": "",
+      "source": "",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186789170",
+      "user": "Mison",
+      "created_at": "2026-08-02T03:06:13Z",
+      "changes": 2,
+      "comment": "Specify whether public transport stops have benches",
+      "source": "survey",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186789165",
+      "user": "Mison",
+      "created_at": "2026-08-02T03:06:11Z",
+      "changes": 2,
+      "comment": "Specify whether public transport stops have shelters",
+      "source": "survey",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186789163",
+      "user": "Mison",
+      "created_at": "2026-08-02T03:06:09Z",
+      "changes": 4,
+      "comment": "Specify tracktypes",
+      "source": "survey",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186789162",
+      "user": "Mison",
+      "created_at": "2026-08-02T03:06:08Z",
+      "changes": 25,
+      "comment": "Specify whether there are cycleways",
+      "source": "survey",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186789161",
+      "user": "Mison",
+      "created_at": "2026-08-02T03:06:08Z",
+      "changes": 11,
+      "comment": "Specify whether roads have sidewalks",
+      "source": "survey",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186789155",
+      "user": "Mison",
+      "created_at": "2026-08-02T03:06:03Z",
+      "changes": 2,
+      "comment": "Survey wheelchair accessibility of places",
+      "source": "survey",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186789141",
+      "user": "Mison",
+      "created_at": "2026-08-02T03:05:56Z",
+      "changes": 8,
+      "comment": "Specify surfaces",
+      "source": "survey",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186784307",
+      "user": "Xuvia",
+      "created_at": "2026-08-01T22:13:12Z",
+      "changes": 1,
+      "comment": "Adding 1 POI near Memorial Avenue",
+      "source": "local knowledge",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186755431",
+      "user": "Acccount",
+      "created_at": "2026-08-01T10:23:52Z",
+      "changes": 580,
+      "comment": "all i can say is i hope the satellite imagery here is up-to-date enough",
+      "source": "aerial imagery",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186744958",
+      "user": "Suhrid",
+      "created_at": "2026-08-01T05:28:02Z",
+      "changes": 1,
+      "comment": "Updated a building",
+      "source": "",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186742878",
+      "user": "Tuwewanzi",
+      "created_at": "2026-08-01T04:03:57Z",
+      "changes": 11,
+      "comment": "Dakota and Lakota names for European nations",
+      "source": "New Lakota Dictionary;Dakhod Iapi Wichoie Wowapi",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186742421",
+      "user": "Tuwewanzi",
+      "created_at": "2026-08-01T03:46:39Z",
+      "changes": 3,
+      "comment": "Dakota/Lakota names on US States",
+      "source": "New Lakota Dictionary;Dakhod Iapi Wichoie Wowapi",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186734456",
+      "user": "remila",
+      "created_at": "2026-07-31T22:58:53Z",
+      "changes": 4,
+      "comment": "Survey if places still exist",
+      "source": "survey",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186678767",
+      "user": "Mison",
+      "created_at": "2026-07-31T01:02:16Z",
+      "changes": 6,
+      "comment": "Specify whether roads have sidewalks",
+      "source": "survey",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186602984",
+      "user": "Tuwewanzi",
+      "created_at": "2026-07-29T18:36:53Z",
+      "changes": 2,
+      "comment": "Name tagging fix - DAK name was put on the wrong Red Sucker Lake",
+      "source": "",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186514830",
+      "user": "Adam Ferreira",
+      "created_at": "2026-07-28T11:54:48Z",
+      "changes": 14,
+      "comment": "",
+      "source": "",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186497756",
+      "user": "jsguenette",
+      "created_at": "2026-07-28T05:32:54Z",
+      "changes": 2,
+      "comment": "Survey opening hours",
+      "source": "survey",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186433440",
+      "user": "PedestrianMapping_CartoVeil",
+      "created_at": "2026-07-27T03:35:21Z",
+      "changes": 4,
+      "comment": "Added crossing way #MLCrossingDetection #maproulette mpr.lt/c/43358/t/352830032",
+      "source": "aerial imagery",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186428317",
+      "user": "TheRadScientist",
+      "created_at": "2026-07-26T23:58:30Z",
+      "changes": 267,
+      "comment": "Add bicycle and foot access",
+      "source": "Esri World Imagery",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186346641",
+      "user": "Adam Ferreira",
+      "created_at": "2026-07-25T13:30:58Z",
+      "changes": 13,
+      "comment": "",
+      "source": "",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186341725",
+      "user": "Adam Ferreira",
+      "created_at": "2026-07-25T11:44:09Z",
+      "changes": 12,
+      "comment": "",
+      "source": "",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186336103",
+      "user": "Ethan Grobin",
+      "created_at": "2026-07-25T09:24:31Z",
+      "changes": 108,
+      "comment": "Tag Cleanup (four_square related) Americas (I am splitting changesets now:) )",
+      "source": "Esri World Imagery; Bing",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186321633",
+      "user": "woodpeck_repair",
+      "created_at": "2026-07-24T22:44:56Z",
+      "changes": 3227,
+      "comment": "revert airport edits by user olehz - United States",
+      "source": "",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186321388",
+      "user": "woodpeck_repair",
+      "created_at": "2026-07-24T22:39:32Z",
+      "changes": 229,
+      "comment": "revert airport edits by user olehz - Canada",
+      "source": "",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186318354",
+      "user": "Adam Ferreira",
+      "created_at": "2026-07-24T21:10:48Z",
+      "changes": 14,
+      "comment": "",
+      "source": "",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186318294",
+      "user": "Adam Ferreira",
+      "created_at": "2026-07-24T21:09:09Z",
+      "changes": 13,
+      "comment": "",
+      "source": "",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186272754",
+      "user": "Tuwewanzi",
+      "created_at": "2026-07-24T04:38:18Z",
+      "changes": 268,
+      "comment": "Manitoba Dakota place names plus more thorough river labeling",
+      "source": "",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186271563",
+      "user": "Tuwewanzi",
+      "created_at": "2026-07-24T03:47:59Z",
+      "changes": 61,
+      "comment": "Duzahan Maniwin-sourced (2007) Manitoba names plus some name attribution fixes in MN",
+      "source": "",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186255197",
+      "user": "Adam Ferreira",
+      "created_at": "2026-07-23T19:50:32Z",
+      "changes": 7,
+      "comment": "",
+      "source": "",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186249986",
+      "user": "tadgh11",
+      "created_at": "2026-07-23T17:55:58Z",
+      "changes": 1,
+      "comment": "Specify whether roads have sidewalks",
+      "source": "survey",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186232771",
+      "user": "Adam Ferreira",
+      "created_at": "2026-07-23T12:54:49Z",
+      "changes": 14,
+      "comment": "",
+      "source": "",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186221768",
+      "user": "PedestrianMapping_AtlasCloak",
+      "created_at": "2026-07-23T09:07:03Z",
+      "changes": 7,
+      "comment": "Modified Crosswalks",
+      "source": "aerial imagery",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186216483",
+      "user": "PedestrianMapping_AtlasCloak",
+      "created_at": "2026-07-23T06:58:49Z",
+      "changes": 12,
+      "comment": "Modified Sidewalks and Crosswalks",
+      "source": "aerial imagery",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186199700",
+      "user": "Adam Ferreira",
+      "created_at": "2026-07-22T20:36:52Z",
+      "changes": 14,
+      "comment": "",
+      "source": "",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186182817",
+      "user": "Adam Ferreira",
+      "created_at": "2026-07-22T14:49:47Z",
+      "changes": 12,
+      "comment": "",
+      "source": "",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186172080",
+      "user": "CjMalone",
+      "created_at": "2026-07-22T11:23:44Z",
+      "changes": 190,
+      "comment": "Add/update Nordstrom Rack websites",
+      "source": "Nordstrom Rack website",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186170639",
+      "user": "Adam Ferreira",
+      "created_at": "2026-07-22T10:50:07Z",
+      "changes": 12,
+      "comment": "",
+      "source": "",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186166172",
+      "user": "G milli",
+      "created_at": "2026-07-22T09:15:33Z",
+      "changes": 12,
+      "comment": "Created 4 viewpoints, 3 guest_houses, and 5 other objects",
+      "source": "",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186150491",
+      "user": "Adam Ferreira",
+      "created_at": "2026-07-22T02:08:30Z",
+      "changes": 13,
+      "comment": "",
+      "source": "",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186150391",
+      "user": "Adam Ferreira",
+      "created_at": "2026-07-22T02:04:28Z",
+      "changes": 14,
+      "comment": "",
+      "source": "",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186150354",
+      "user": "Adam Ferreira",
+      "created_at": "2026-07-22T02:03:10Z",
+      "changes": 13,
+      "comment": "",
+      "source": "",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186150321",
+      "user": "Adam Ferreira",
+      "created_at": "2026-07-22T02:02:08Z",
+      "changes": 13,
+      "comment": "",
+      "source": "",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186150255",
+      "user": "Adam Ferreira",
+      "created_at": "2026-07-22T02:00:03Z",
+      "changes": 7,
+      "comment": "",
+      "source": "",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186126455",
+      "user": "Adam Ferreira",
+      "created_at": "2026-07-21T16:28:29Z",
+      "changes": 18,
+      "comment": "",
+      "source": "",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186126447",
+      "user": "Adam Ferreira",
+      "created_at": "2026-07-21T16:28:17Z",
+      "changes": 18,
+      "comment": "",
+      "source": "",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186126349",
+      "user": "Adam Ferreira",
+      "created_at": "2026-07-21T16:26:49Z",
+      "changes": 17,
+      "comment": "",
+      "source": "",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186120455",
+      "user": "Ryan Parker TBay",
+      "created_at": "2026-07-21T14:48:55Z",
+      "changes": 2,
+      "comment": "Speed Limit Update Thunder Bay",
+      "source": "",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186014646",
+      "user": "Adam Ferreira",
+      "created_at": "2026-07-19T15:54:24Z",
+      "changes": 14,
+      "comment": "",
+      "source": "",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186009048",
+      "user": "Adam Ferreira",
+      "created_at": "2026-07-19T13:56:51Z",
+      "changes": 16,
+      "comment": "",
+      "source": "",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186009030",
+      "user": "Adam Ferreira",
+      "created_at": "2026-07-19T13:56:25Z",
+      "changes": 14,
+      "comment": "",
+      "source": "",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186004282",
+      "user": "whitepanda",
+      "created_at": "2026-07-19T12:19:52Z",
+      "changes": 1,
+      "comment": "Barrier connected to the highway #maproulette #tomtom mpr.lt/c/53795/t/317520678",
+      "source": "Geospatial Ontario Imagery Data Services - 2023 to 2027 - GEO_Imagery_Data_Service_2023to2027:SWOOP_2025 tt_proprietry",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "185902202",
+      "user": "CjMalone",
+      "created_at": "2026-07-17T12:19:29Z",
+      "changes": 621,
+      "comment": "Update Flying J/Pilor website and add contact details",
+      "source": "website",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "185884328",
+      "user": "PedestrianMapping_GridCloak",
+      "created_at": "2026-07-17T05:24:37Z",
+      "changes": 16,
+      "comment": "Added Crosswalks and Sidewalks",
+      "source": "aerial imagery",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "185883861",
+      "user": "PedestrianMapping_GridCloak",
+      "created_at": "2026-07-17T05:10:24Z",
+      "changes": 127,
+      "comment": "Created Sidewalks and Crosswalks",
+      "source": "aerial imagery",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "185883773",
+      "user": "sarowi17",
+      "created_at": "2026-07-17T05:07:16Z",
+      "changes": 41,
+      "comment": "added bulidings",
+      "source": "aerial imagery",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "185883754",
+      "user": "PedestrianMapping_VectorHop",
+      "created_at": "2026-07-17T05:06:41Z",
+      "changes": 64,
+      "comment": "Created Sidewalks",
+      "source": "aerial imagery",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "185883093",
+      "user": "PedestrianMapping_GridCloak",
+      "created_at": "2026-07-17T04:42:54Z",
+      "changes": 133,
+      "comment": "Created Sidewalks and Crosswalks",
+      "source": "aerial imagery",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "185882069",
+      "user": "PedestrianMapping_RouteShift",
+      "created_at": "2026-07-17T04:04:24Z",
+      "changes": 3,
+      "comment": "Added Sidewalks",
+      "source": "aerial imagery",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "185882046",
+      "user": "PedestrianMapping_RouteShift",
+      "created_at": "2026-07-17T04:03:39Z",
+      "changes": 13,
+      "comment": "Created Crosswalks",
+      "source": "aerial imagery",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "185881917",
+      "user": "PedestrianMapping_RouteShift",
+      "created_at": "2026-07-17T03:58:32Z",
+      "changes": 44,
+      "comment": "Created Sidewalks and Crosswalks",
+      "source": "aerial imagery",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "185881836",
+      "user": "PedestrianMapping_RouteShift",
+      "created_at": "2026-07-17T03:54:26Z",
+      "changes": 24,
+      "comment": "Added crosswalks",
+      "source": "aerial imagery",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "185881730",
+      "user": "JuanElDemografo",
+      "created_at": "2026-07-17T03:50:46Z",
+      "changes": 8,
+      "comment": "POIs in DFW airport and London I'm so sorry for box size",
+      "source": "survey",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "185872509",
+      "user": "CjMalone",
+      "created_at": "2026-07-16T22:28:20Z",
+      "changes": 581,
+      "comment": "Update Loves website and add attributes",
+      "source": "Loves Website; Bing; Esri",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "185823575",
+      "user": "Flynn Marquardt",
+      "created_at": "2026-07-16T05:06:25Z",
+      "changes": 6,
+      "comment": "Split way to fix border relation/19601940 and relation/19601943",
+      "source": "",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "185818752",
+      "user": "Enderbyte99",
+      "created_at": "2026-07-16T01:29:35Z",
+      "changes": 489,
+      "comment": "Improvements to Thunder Bay",
+      "source": "",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "185812352",
+      "user": "tadgh11",
+      "created_at": "2026-07-15T21:56:33Z",
+      "changes": 1,
+      "comment": "Determine road names and types",
+      "source": "survey",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "185812316",
+      "user": "tadgh11",
+      "created_at": "2026-07-15T21:56:00Z",
+      "changes": 2,
+      "comment": "Specify whether crosswalks have tactile paving",
+      "source": "survey",
+      "import": "",
+      "import_page": ""
+    }
+  ]
+}

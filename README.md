@@ -35,6 +35,14 @@ jurisdiction; they surface as the exact orphan set of the 7-ward tile
 fabric (99.16% coverage otherwise) and must be resolved before any upload.
 Thunder Bay amalgamated Port Arthur and Fort William in 1970.
 
+Entry state probed 2026-08-16 (`onboarding/entry-state-2026-08-16.json`):
+**greenfield, the purest CanVec profile in the portfolio** — 985 of 1,006
+sampled elements are CanVec 6.0 loose nodes (98% nodes, 16 ways), quiet
+since Matthew Darwin's 2018 rename retag; the only steady local is
+`eireidium` (POI mapping, 2022). No import tags, no wiki page, no recent
+activity. Arguably the cleanest import target in the queue. Contacts:
+Matthew Darwin, eireidium.
+
 Before any production upload: wiki proposal page, forum announcement, and
 feedback window per the
 [OSM Import Guidelines](https://wiki.openstreetmap.org/wiki/Import/Guidelines)
