@@ -1,0 +1,95 @@
+[city]
+slug = "thunder-bay"
+name = "Thunder Bay"
+# Ward polygons: 7 named wards (WESTFORT, MCINTYRE, NEEBING, RED RIVER,
+# NORTHWOOD, MCKELLAR, CURRENT RIVER), point-tested 2026-08-16 at 99.16% of
+# snapshot-17 addresses — and the 378 orphans are EXACTLY the FWFN rows
+# (Fort William First Nation, a separate jurisdiction the city layer
+# publishes; they fall outside the ward fabric by construction, so the
+# orphan bucket doubles as a jurisdiction separator). The ES Police
+# Neighbourhoods layer (8 zones) lost on name quality. No civic
+# neighbourhood fabric exists in the org's 106 services (swept 2026-08-16).
+neighbourhoods_url = "https://services5.arcgis.com/h9xShea49ZANgOtx/arcgis/rest/services/Wards_Feature_Layer/FeatureServer/0/query?where=1%3D1&outFields=WARD_NAME,WARD_NO&outSR=4326&f=geojson"
+neighbourhood_name_field = "WARD_NAME"
+
+[source]
+sqlite_path = "C:/Users/kk/Code/ontario-address-changes/data/thunder-bay/thunder-bay.db"
+
+# Per-city projection recipe (multi-city Tier 2), measured against snapshot 17
+# (2026-07-24, 45,098 active rows; no stable key — RSN has a 0/null sentinel —
+# so identities are synthetic and missing_sample rides the crc32 path).
+[source_fields]
+# The canonical street is the bare name component ("BAILEY" — the survey's
+# 18-of-42 shape; Thunder Bay was its 0%-typed poster child). ROOT carries
+# name + suffix + split-directional ("JAMES ST S"), 45,095 of 45,098 rows.
+# ALL-CAPS abbreviated (ST/AVE/CRES) — in the expansion tables; TODO §9
+# gates upload.
+street_from = "props:ROOT"
+full_from = "full"
+# The tracker's number is an INTEGER that drops the qualifier on 339 rows
+# ("963" vs "963 1/2 HOLT PL", "688" vs "688B CITY RD" — the hastings shape,
+# flagged in the tracker TOML). props ADDRESS carries the combined civic
+# number with qualifier; number_from = "props:<KEY>" was added to the engine
+# for exactly this (2026-08-16).
+number_from = "props:ADDRESS"
+# CITY: 'THUNDER BAY' 44,719 / 'FWFN' 378 (+1 null) — Fort William First
+# Nation. Load-bearing for review display and for keeping another
+# JURISDICTION's addresses visible: importing FWFN rows under a Thunder Bay
+# proposal would be wrong (their inclusion in the city layer is itself a
+# question); the ward-fabric orphan bucket isolates them spatially too.
+municipality = "props:CITY"
+# No unit field (confirmed by the tracker against the live field list;
+# 14 rows embed "<number>-<unit>" in ADDRESS at 0.03% — noted, not parsed).
+# No status field, no ranges. TYPE ("Regular Property" / "City Owned") is a
+# property-ownership class, NOT Toronto's address_class semantics (no Land
+# Entrance analogue) — undeclared for-cause.
+
+[run_defaults]
+# Dense Fort William cell (1,394 rows) for first test runs.
+bbox = [48.384, -89.256, 48.396, -89.244]
+overpass_url = "https://overpass-api.de/api/interpreter"
+
+[osm]
+source = "local"
+# Same Ontario PBF as every city in the portfolio.
+pbf_url = "https://download.geofabrik.de/north-america/canada/ontario-latest.osm.pbf"
+# Source-data extent (45,098 rows measured 2026-08-16: lat 48.28951..48.51491,
+# lon -89.42693..-89.15168) plus a small margin. The rectangle contains FWFN
+# land (see [source_fields] municipality); see 10-boundary-clipping.md.
+city_bbox = [48.28, -89.45, 48.53, -89.13]
+extract_dir = "data/osm"
+
+[conflation]
+match_radius_m = 100
+match_near_m = 15
+
+[checks]
+match_far = true
+# suffix_range deliberately absent: no lo_num/hi_num in this source.
+city_duplicate = true
+missing_sample = true
+nearby_street_mismatch = true
+
+[check_params.city_duplicate]
+radius_m = 3.0
+
+[check_params.missing_sample]
+every_nth = 50
+
+[check_params.nearby_street_mismatch]
+radius_m = 20.0
+
+[check_params.match_number_drift]
+slack_m = 2.0
+
+[upload]
+changesets_per_minute = 1
+changeset_comment_template = "{city} Open Data address import, run={run_name}"
+
+[export]
+attribution = "City of Thunder Bay Open Data"
+# Entry-state probe of 2026-08-16 pending at write time (see README). No
+# proposal exists; write and publish one per the OSM Import Guidelines
+# BEFORE any production upload; decide the FWFN question and TODO §9
+# (title-casing) first.
+import_plan = ""
