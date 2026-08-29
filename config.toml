@@ -22,8 +22,8 @@ sqlite_path = "C:/Users/kk/Code/ontario-address-changes/data/thunder-bay/thunder
 # The canonical street is the bare name component ("BAILEY" — the survey's
 # 18-of-42 shape; Thunder Bay was its 0%-typed poster child). ROOT carries
 # name + suffix + split-directional ("JAMES ST S"), 45,095 of 45,098 rows.
-# ALL-CAPS abbreviated (ST/AVE/CRES) — in the expansion tables; TODO §9
-# gates upload.
+# ALL-CAPS abbreviated (ST/AVE/CRES) — in the expansion tables, and title-cased
+# on export since 2026-08-29 ([export] street_case).
 street_from = "props:ROOT"
 full_from = "full"
 # The tracker's number is an INTEGER that drops the qualifier on 339 rows
@@ -90,6 +90,11 @@ changeset_comment_template = "{city} Open Data address import, run={run_name}"
 attribution = "City of Thunder Bay Open Data"
 # Entry-state probe of 2026-08-16 pending at write time (see README). No
 # proposal exists; write and publish one per the OSM Import Guidelines
-# BEFORE any production upload; decide the FWFN question and TODO §9
-# (title-casing) first.
+# BEFORE any production upload; decide the FWFN question first.
 import_plan = ""
+
+# The source shouts. Title-cased on the export path only, so street_raw keeps
+# the source spelling and conflation is untouched. Swept over all 1,133 distinct
+# street names 2026-08-29: no all-caps word survives the step.
+# The numbered streets come out well: "103RD ST" -> "103rd Street".
+street_case = "title"
