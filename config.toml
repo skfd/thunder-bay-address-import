@@ -11,6 +11,10 @@ name = "Thunder Bay"
 # neighbourhood fabric exists in the org's 106 services (swept 2026-08-16).
 neighbourhoods_url = "https://services5.arcgis.com/h9xShea49ZANgOtx/arcgis/rest/services/Wards_Feature_Layer/FeatureServer/0/query?where=1%3D1&outFields=WARD_NAME,WARD_NO&outSR=4326&f=geojson"
 neighbourhood_name_field = "WARD_NAME"
+# The orphan bucket is Fort William First Nation, so name it: tile names flow
+# into run names and changeset comments (decided 2026-11-07: FWFN addresses are
+# included, as their own phase gated on contacting the Nation; README).
+orphan_name = "Fort William First Nation"
 
 [source]
 sqlite_path = "C:/Users/kk/Code/ontario-address-changes/data/thunder-bay/thunder-bay.db"

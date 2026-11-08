@@ -1,0 +1,189 @@
+<!-- DRAFT, not published. Target page: https://wiki.openstreetmap.org/wiki/Thunder_Bay/Address_Import
+     Fill every {{TBD}} from the baseline run before publishing (IMPORT_CHECKLIST.md, step 4). -->
+{{Map of imports| name = Thunder Bay Address Points
+| description = Human-reviewed import of missing civic address points from the City of Thunder Bay open data, with Fort William First Nation's addresses as a separate phase gated on contacting the Nation.
+| user = [[https://www.openstreetmap.org/user/skfd%20imports|skfd imports]]
+| status = Proposed
+}}
+
+== Status ==
+
+* '''Stage:''' Proposed. Community review open from {{TBD: date of forum post}}; nothing has been uploaded.
+* '''Last revised:''' {{TBD}}
+* '''Contact:''' toronto@comentality.com
+* '''OSM import account:''' [[osm:user/skfd imports|skfd imports]], dedicated to imports; the maintainer's personal account ([[User:skfd|skfd]]) uploads nothing from this tooling.
+* '''Discussion:''' {{TBD: forum thread link}} on the OSM Community Forum, tagged <code>import</code>.
+* '''Tooling:''' [https://github.com/skfd/thunder-bay-address-import thunder-bay-address-import] (this city's configuration) on the engine [https://github.com/skfd/address-importer-friend address-importer-friend], the same engine that imported [[Toronto/Import/AddressPoints|Toronto]] (~449,000 addresses, 2026) and maintains [[Guelph/Address_Import/Continuous|Guelph]].
+
+This proposal follows the [[Import/Guidelines|OSM Import Guidelines]]. The 14-day review window opens with the forum post; no upload happens before it closes.
+
+== Land acknowledgement ==
+
+"We acknowledge that Thunder Bay is built on the traditional territory of the Anishinabek, which includes the Ojibwa of Fort William First Nation, signatory to the Robinson-Superior Treaty of 1850. We also acknowledge the contributions of the Métis peoples." — [https://www.thunderbay.ca/city-hall/history-heritage-and-records/history-of-thunder-bay/ City of Thunder Bay], quoted as published.
+
+Addresses on Fort William First Nation land are a separate phase of this import. They are not uploaded until the Nation has been asked and given time to answer; see [[#Fort William First Nation|§ Fort William First Nation]].
+
+== Summary ==
+
+Human-reviewed import of '''missing civic address points''' from the City of Thunder Bay's municipal address layer. Each address is checked against a fresh OSM snapshot, so only addresses OSM does not already have are created. Every run is reviewed by a person in a local web UI before it is uploaded. Every upload is its own tagged changeset, and every decision is logged.
+
+Thunder Bay today has almost no per-address data in OSM beyond loose CanVec nodes. A 2026-08-16 sample of the city found 985 of 1,006 address-bearing elements to be CanVec 6.0 nodes, quiet since a 2018 retag, with no import tags, no import page and no recent address activity.
+
+'''Geographic scope:''' the City of Thunder Bay, Ontario, plus Fort William First Nation land in a separate phase. The City's 7 wards (Westfort, McIntyre, Neebing, Red River, Northwood, McKellar, Current River) split the work into review tiles.
+
+Scope numbers (source snapshot #{{TBD}}, {{TBD: date}}):
+
+{| class="wikitable"
+! Rows !! Count !! Disposition
+|-
+| City of Thunder Bay (<code>CITY = THUNDER BAY</code>) || 44,722 || Candidates, phases 1–2.
+|-
+| Fort William First Nation (<code>CITY = FWFN</code>) || 378 || Phase 3, gated. 8 have no civic number and are dropped.
+|-
+| No <code>CITY</code> value || 2 || Reviewed by hand.
+|-
+! Total !! 45,102 !! Before conflation.
+|}
+
+Baseline conflation against the {{TBD: PBF date}} Geofabrik extract: {{TBD: MATCH}} already in OSM, {{TBD: MATCH_FAR}} near-matches for review, '''{{TBD: MISSING}} missing'''. Only the missing ones are candidates for upload.
+
+== Goals and non-goals ==
+
+=== Goals ===
+* Add the civic addresses OSM is missing in Thunder Bay, from the City's authoritative roster.
+* Create no duplicates of addresses already in OSM, and change no existing address data.
+* Keep a per-address audit trail (source row → verdict → reviewer decision → changeset → OSM id) anyone can inspect.
+
+=== Non-goals ===
+* '''No deletions''', '''no edits to existing objects''', '''no geometry edits''', '''no buildings''' and '''no <code>addr:interpolation</code> cleanup'''. Create-only, exactly as [[Toronto/Import/AddressPoints#Goals and non-goals|Toronto's]].
+* '''Not the existing CanVec nodes.''' Where a CanVec node already carries the address, it counts as a match and nothing is uploaded. Retiring or merging CanVec nodes would be a separate proposal.
+
+== Schedule ==
+
+=== Contacts and reviewers ===
+* '''Maintainer and first reviewer:''' toronto@comentality.com
+* '''Local mappers contacted before this page went up:''' Matthew Darwin, eireidium. Both are invited to review.
+* '''Fort William First Nation:''' Lands & Governance, by letter on {{TBD: date sent}}. See [[#Fort William First Nation|below]].
+* '''Upload rule:''' nothing uploads without a reviewer's approval in the web UI.
+
+=== Phases ===
+
+Each phase can ship on its own and be reverted on its own.
+
+* '''Phase 0 — community review.''' This page, a forum post tagged <code>import</code>, and a 14-day feedback window.
+* '''Phase 1 — pilot, one tile.''' {{TBD: tile name}}, {{TBD: n}} candidates, fully reviewed by hand. One-week hold before Phase 2.
+* '''Phase 2 — the City, ward by ward.''' One tile per changeset, 250–750 source addresses each, at most one changeset a minute by manual cadence.
+* '''Phase 3 — Fort William First Nation.''' Only after the Nation has answered, or after the wait in [[#Fort William First Nation|§ Fort William First Nation]]. Its own tiles and changesets, never mixed with City tiles.
+* '''Phase 4 — closeout and upkeep.''' A closing report here and on the forum thread. After that the City's new addresses are added monthly under the same rules, as for [[Toronto/Import/AddressPoints#Continuous maintenance|Toronto]].
+
+== Fort William First Nation ==
+
+The City's address layer includes 378 points on Fort William First Nation land, a separate jurisdiction from the City. They have no City parcel number. The City publishes them under the same open licence, so the licence permits importing them. We are asking the Nation anyway, because adding a community's addresses without asking is not how we want to work. There is no Canadian OSM import precedent we could find either way.
+
+* A letter went to FWFN Lands & Governance on {{TBD}} asking: whether the Nation is comfortable with the addresses being in OSM; who assigns them; what the road the City lists as "Squaw Bay Road" is called today; and whether there is a process to follow.
+* '''If the Nation says no''', Phase 3 does not happen, and this page says so.
+* '''If the Nation asks for changes''' (names, spellings, a subset), we make them.
+* '''If there is no reply''' after {{TBD: wait — operator's decision}} days and a phone follow-up, {{TBD: what then}}.
+* '''84 addresses on "Squaw Bay Road"''' will not be uploaded under that name in any case. The word is a slur, and Canada has been renaming places that carry it. We will use the name the Nation gives.
+* '''8 points have no civic number''' and are dropped.
+
+== Import data ==
+
+=== Source ===
+* '''Dataset:''' Municipal Address layer, City of Thunder Bay ([https://services5.arcgis.com/h9xShea49ZANgOtx/arcgis/rest/services/Municipal_Address_Feature_Layer/FeatureServer/0 ArcGIS feature service]).
+* '''Consumption path:''' fetched daily into a SQLite history by [https://github.com/skfd/ontario-address-changes ontario-address-changes] ([https://skfd.github.io/ontario-address-changes/thunder-bay/ change reports]); this import reads that read-only.
+
+=== Licence ===
+* '''Licence:''' City of Thunder Bay Open Data Licence, listed as OSM-compatible {{TBD: link to the LWG/wiki listing}}. Attribution goes in <code>addr:source</code> on each node and <code>source</code> on each changeset.
+
+=== Type and volume ===
+* Points only: civic number, street, municipality (<code>THUNDER BAY</code> or <code>FWFN</code>), parcel id, property type. No units, no postcodes, no ranges.
+
+=== Freshness ===
+* OSM side: Geofabrik Ontario extract, refreshed before each session. If more than 24 h pass between conflation and upload, re-conflate first.
+
+== Tagging plan ==
+
+All uploads are '''nodes'''.
+
+{| class="wikitable"
+! Tag !! From !! Notes
+|-
+| <code>addr:housenumber</code> || <code>ADDRESS</code> || The full civic number with its qualifier: <code>688B</code>, <code>963 1/2</code>. The City's integer column drops qualifiers on 338 rows, so it is not used.
+|-
+| <code>addr:street</code> || <code>ROOT</code> || The City publishes abbreviated capitals (<code>JAMES ST S</code>); expanded and title-cased on the way out: <code>James Street South</code>, <code>103rd Street</code>.
+|-
+| <code>addr:source</code> || static || <code>City of Thunder Bay Open Data</code>
+|-
+| <code>addr:postcode</code> || OSM || Only copied from a same-address POI already in OSM. The City publishes no postcodes, and none are invented.
+|}
+
+'''Not written:''' <code>addr:city</code> (redundant inside the city; for FWFN, ask the Nation first), <code>addr:province</code>, <code>addr:country</code>, <code>addr:unit</code> (no unit field), ward, parcel id, property type.
+
+=== Changeset tags ===
+
+{| class="wikitable"
+! Tag !! Value
+|-
+| <code>comment</code> || <code>Thunder Bay Open Data address import, run=&lt;run name&gt;</code>
+|-
+| <code>source</code> || <code>City of Thunder Bay Open Data</code>
+|-
+| <code>import</code> / <code>bot</code> || <code>yes</code> / <code>no</code>
+|-
+| <code>import_plan</code> || this page
+|-
+| <code>created_by</code> || <code>address-importer-friend</code>
+|-
+| <code>import:client_token</code> || random per run, for safe retry after a dropped connection
+|}
+
+== Conflation ==
+
+The same as Toronto's; see [[Toronto/Import/AddressPoints#Conflation|Toronto § Conflation]]. In short: '''MATCH''' when OSM has the same number and street within 15 m; '''MATCH_FAR''' (15–100 m), always reviewed by a person; '''MISSING''' otherwise. Pure address nodes and address-bearing polygons are match targets, POIs are not.
+
+Thunder Bay specifics:
+
+* The street name is matched on the City's <code>ROOT</code> (<code>BAILEY AVE</code>), expanded the same way on both sides.
+* '''14 rows embed a unit in the civic number''' (<code>123-4</code>). These are held for review rather than uploaded as <code>addr:housenumber=123-4</code>; see Open questions.
+* Duplicates within the source (same number and street within 3 m) are flagged for review.
+
+== Workflow and QA ==
+
+The same pipeline, checks, review queue, audit log and upload manifest as [[Toronto/Import/AddressPoints#Workflow and QA|Toronto]]. Checks enabled for Thunder Bay: <code>match_far</code>, <code>city_duplicate</code>, <code>missing_sample</code> (every 50th MISSING is reviewed by hand), <code>nearby_street_mismatch</code>. No <code>suffix_range</code>: the source has no ranges. An upload manifest (source row → OSM node → changeset) is published per tile.
+
+== Risks and mitigations ==
+
+{| class="wikitable"
+! Risk !! Mitigation
+|-
+| Duplicating a CanVec node that carries the address in another form || Conflation counts it as a match; <code>nearby_street_mismatch</code> surfaces spelling variants; the pilot is reviewed by hand.
+|-
+| Adding addresses a First Nation did not want added || Phase 3 is gated on the letter and wait above; no FWFN address is ever in a City changeset.
+|-
+| An offensive street name copied from the source || Street names are reviewed per tile; "Squaw Bay Road" is held for the Nation's answer.
+|-
+| Community unaware || This page, the forum thread, local mappers contacted directly, and a run name in every changeset comment.
+|}
+
+== Revert plan ==
+
+As [[Toronto/Import/AddressPoints#Revert plan|Toronto's]]: one changeset per run, tagged, so any run can be reverted with the [[JOSM/Plugins/Reverter|JOSM Reverter]]. Uploads pause on any reasonable stop request from the forum thread, a local mapper or the Nation, within one business day. Good-faith reverts by local mappers are not contested.
+
+== Open questions for the community ==
+
+# '''CanVec nodes.''' Matched CanVec nodes are left as they are. Is a later cleanup (merging or retiring duplicates) wanted, and by whom?
+# '''<code>123-4</code> numbers.''' 14 City rows embed a unit after a hyphen. Upload as <code>addr:housenumber=123</code> + <code>addr:unit=4</code>, upload verbatim, or skip?
+# '''<code>addr:city</code>.''' Not written inside the city. Does the local community want <code>addr:city=Thunder Bay</code>?
+# '''Monitoring.''' 90 days after the last bulk upload, as for Toronto?
+
+== References ==
+
+* [[Import/Guidelines|OSM Import Guidelines]], [[Import/Catalogue|Import Catalogue]]
+* [https://services5.arcgis.com/h9xShea49ZANgOtx/arcgis/rest/services/Municipal_Address_Feature_Layer/FeatureServer/0 City of Thunder Bay Municipal Address layer]
+* [https://www.thunderbay.ca/city-hall/history-heritage-and-records/history-of-thunder-bay/ City of Thunder Bay land acknowledgement]
+* [https://fwfn.com Fort William First Nation]
+* [[Toronto/Import/AddressPoints|Toronto address import]], the template for this page and the same engine
+
+[[Category:Import from Canada]]
+[[Category:Ontario]]

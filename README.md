@@ -2,9 +2,42 @@
 
 The **Thunder Bay city checkout** of the address-import family — city #10,
 scaffolded 2026-08-16 by the breadth-first onboarding loop (engine
-`future-work/multi-city/onboarding-queue.md`). Status: **onboarding**. No
-proposal published, no uploads made; the config is a first draft for
-conflation baseline runs.
+`future-work/multi-city/onboarding-queue.md`). Status: **import picked
+2026-11-07** — the next city after Toronto and Guelph. No proposal
+published, no uploads made. What to do next, in order:
+[`IMPORT_CHECKLIST.md`](IMPORT_CHECKLIST.md). Drafts of the wiki page, the
+forum post and the letters are in [`drafts/`](drafts/), unsent.
+
+> "We acknowledge that Thunder Bay is built on the traditional territory of
+> the Anishinabek, which includes the Ojibwa of Fort William First Nation,
+> signatory to the Robinson-Superior Treaty of 1850. We also acknowledge the
+> contributions of the Métis peoples." — the City of Thunder Bay's
+> [land acknowledgement](https://www.thunderbay.ca/city-hall/history-heritage-and-records/history-of-thunder-bay/),
+> quoted as published.
+
+## Decisions (2026-11-07)
+
+- **Fort William First Nation's addresses are included, as their own phase.**
+  The City's layer carries 378 FWFN rows (`CITY = 'FWFN'`; 370 with a civic
+  number, 8 without). They are a separate jurisdiction, so they upload only
+  after FWFN has been written to and given time to answer, and never in the
+  same changeset as a City tile. They already sit apart: outside every ward
+  polygon, so `[city] orphan_name` puts them in their own tiles, named
+  "Fort William First Nation". If FWFN says no, the phase is dropped and the
+  wiki says so. Letter: [`drafts/fwfn-letter.md`](drafts/fwfn-letter.md).
+- **One wiki proposal, not two projects.** Same source, licence, tooling and
+  account; the FWFN phase has its own section, gate and changesets. There is
+  no Canadian OSM precedent for importing on reserve land either way
+  (research 2026-11-07, sources in the letter draft), so the page says what
+  we did and why.
+- **"Squaw Bay Rd" is not uploaded under that name.** 84 FWFN addresses are
+  on it in the City's data. The word is a slur and much of Canada has been
+  renaming it; the letter asks FWFN what the road is called. Until they
+  answer, those 84 stay in the FWFN phase's review queue.
+- **Land acknowledgement** in the wiki page and the forum post: the City's
+  own published wording, quoted verbatim and linked (above), not one of our
+  own. FWFN's website publishes none. Like the City's, it names no specific
+  Métis organisation.
 
 The pipeline lives in the engine repo,
 [`address-importer-friend`](https://github.com/skfd/address-importer-friend)
