@@ -89,22 +89,28 @@ Found on the way, and now in the drafts:
 ## Phase 4 — Outreach (you)
 
 Order matters: FWFN and the local mappers hear from you before the forum does.
+Only step 10 has to come first, because these go out under your name. Steps 5
+and 6 gate the pilot upload (step 18), not the outreach, so do them during the
+FWFN wait and the forum window (decided 2026-11-08).
 
-- [ ] **13.** Publish the wiki page at `Thunder_Bay/Address_Import` from
-      `IMPORT_PROPOSAL.mediawiki`, still with status Proposed. Add it to
-      [[Import/Catalogue]].
-- [ ] **14.** Send the FWFN letter (`drafts/fwfn-letter.md`) with the wiki
-      link. Note the date on the wiki page.
-- [ ] **15.** Send the two notes to local mappers (`drafts/local-mappers.md`).
-- [ ] **16.** A few days later, post the forum announcement
-      (`drafts/forum-post.md`) and add the thread link to the wiki page. The
-      14-day window starts here.
-- [ ] **17.** Set `[export] import_plan` in `config.toml` to the wiki URL
-      (Claude can do this once the page exists).
+All of it went out the same night, 2026-11-08, rather than spread over days.
+
+- [x] **13.** Wiki page published 2026-11-08 (04:33 UTC):
+      <https://wiki.openstreetmap.org/wiki/Thunder_Bay/Address_Import>,
+      status Proposed. `IMPORT_PROPOSAL.mediawiki` matches what was saved.
+- [ ] **13a.** Add the page to [[Import/Catalogue]].
+- [x] **14.** FWFN letter sent 2026-11-08 from toronto@comentality.com. No
+      reply by **2026-12-08** means Phase 6 is skipped.
+- [x] **15.** Notes to Matthew Darwin and eireidium sent from `skfd`
+      2026-11-08 (04:35 UTC).
+- [x] **16.** Forum announcement posted 2026-11-08:
+      <https://community.openstreetmap.org/t/thunder-bay-address-import-proposal-for-review/149917>. The 14-day window closes **2026-11-22**.
+- [x] **17.** `[export] import_plan` in `config.toml` is the wiki URL, set
+      2026-11-08 ahead of publishing; the drafts carry the same link.
 
 ## Phase 5 — Production, City only
 
-- [ ] **18.** Day 15 or later, with no objection left unanswered: upload the
+- [ ] **18.** Day 15 (2026-11-23) or later, with no objection left unanswered: upload the
       pilot tile from `skfd imports` (`run.py --prod`). Stop. Look at it in iD
       and JOSM, and read the changeset.
 - [ ] **19.** One-week hold. Then ward by ward, one tile per changeset, at most

@@ -1,4 +1,7 @@
-# Letter to Fort William First Nation — DRAFT, not sent
+# Letter to Fort William First Nation — SENT 2026-11-08
+
+Sent from toronto@comentality.com (Zoho). No reply by 2026-12-08 means the
+FWFN phase is skipped.
 
 **To:** Esther Pervais, Lands & Governance Manager — LandsManager@fwfn.com
 **Cc:** info@fwfn.com; Office of the Chief — MicheleSolomon@fwfn.com
@@ -11,7 +14,8 @@ Contacts are from fwfn.com, checked 2026-11-07
 [Employee directory](https://fwfn.com/employee-directory/)). Phone if there is
 no reply: (807) 623-9543 ext. 608 (Lands), main line (807) 623-9543.
 
-Before sending: replace `{wiki link}` once the wiki page is published, and send
+Before sending: publish the wiki page first (the link below is filled in ahead
+of time), and send
 it **before** the forum announcement, so FWFN hears it from us first.
 
 ---
@@ -49,7 +53,7 @@ I would be grateful for your guidance on five things:
 
 Nothing on FWFN land will be added until we have heard from you. If we have
 not heard back within 30 days, we will leave these addresses out. Every
-addition is reviewed by a person and can be traced back to its source. The full plan is public at {wiki link}.
+addition is reviewed by a person and can be traced back to its source. The full plan is public at https://wiki.openstreetmap.org/wiki/Thunder_Bay/Address_Import
 
 Thank you for your time. I am happy to talk by phone or meet if that is easier.
 

@@ -1,4 +1,6 @@
-# Forum announcement — DRAFT, not posted
+# Forum announcement — POSTED 2026-11-08
+
+Thread: <https://community.openstreetmap.org/t/thunder-bay-address-import-proposal-for-review/149917>. The review window runs to 2026-11-22.
 
 **Where:** OSM Community Forum → Communities → Canada
 (<https://community.openstreetmap.org/c/communities/ca/>), tag `import`.
@@ -7,7 +9,7 @@ Matthew Darwin and eireidium have had a few days with the direct note
 (`drafts/local-mappers.md`).
 **Title:** Thunder Bay address import: proposal for review
 
-Replace each `{…}` before posting.
+The wiki link is filled in ahead of time: publish the page before posting.
 
 ---
 
@@ -15,7 +17,7 @@ Hi all,
 
 I'd like to propose an import of the civic addresses OSM is missing in
 **Thunder Bay**, from the City of Thunder Bay's open address data. The full
-plan is on the wiki: {wiki link}.
+plan is on the wiki: https://wiki.openstreetmap.org/wiki/Thunder_Bay/Address_Import
 
 *Thunder Bay is on the traditional lands of the Anishinaabe peoples, including Fort William First Nation, within the Robinson-Superior Treaty territory, and is part of the historic Métis homeland. First Nations should have more say in, and more ownership of, how their traditional lands beyond their reserves are developed, including the land Thunder Bay stands on.* (The first sentence adapts the City of Thunder Bay's
 [Deepening Understanding](https://www.thunderbay.ca/city-hall/indigenous-relations/deepening-understanding/) page.)

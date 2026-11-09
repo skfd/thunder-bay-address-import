@@ -3,10 +3,12 @@
 The **Thunder Bay city checkout** of the address-import family — city #10,
 scaffolded 2026-08-16 by the breadth-first onboarding loop (engine
 `future-work/multi-city/onboarding-queue.md`). Status: **import picked
-2026-11-07** — the next city after Toronto and Guelph. No proposal
-published, no uploads made. What to do next, in order:
-[`IMPORT_CHECKLIST.md`](IMPORT_CHECKLIST.md). Drafts of the wiki page, the
-forum post and the letters are in [`drafts/`](drafts/), unsent.
+2026-11-07** — the next city after Toronto and Guelph. **Announced
+2026-11-08**: [wiki proposal](https://wiki.openstreetmap.org/wiki/Thunder_Bay/Address_Import),
+[forum thread](https://community.openstreetmap.org/t/thunder-bay-address-import-proposal-for-review/149917), letter to Fort William First Nation. The review window
+closes 2026-11-22; no uploads made. What to do next, in order:
+[`IMPORT_CHECKLIST.md`](IMPORT_CHECKLIST.md). The texts as sent are in
+[`drafts/`](drafts/).
 
 > Thunder Bay is on the traditional lands of the Anishinaabe peoples, including Fort William First Nation, within the Robinson-Superior Treaty territory, and is part of the historic Métis homeland. First Nations should have more say in, and more ownership of, how their traditional lands beyond their reserves are developed, including the land Thunder Bay stands on.
 > (The first sentence adapts the City of Thunder Bay's [Deepening Understanding](https://www.thunderbay.ca/city-hall/indigenous-relations/deepening-understanding/) page.)

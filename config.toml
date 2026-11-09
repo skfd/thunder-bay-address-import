@@ -108,10 +108,11 @@ changeset_comment_template = "{city} Open Data address import, run={run_name}"
 
 [export]
 attribution = "City of Thunder Bay Open Data"
-# Entry-state probe of 2026-08-16 pending at write time (see README). No
-# proposal exists; write and publish one per the OSM Import Guidelines
-# BEFORE any production upload; decide the FWFN question first.
-import_plan = ""
+# The import's wiki page, set 2026-11-08 before the page was published (the
+# draft is IMPORT_PROPOSAL.mediawiki). Setting it lifts the engine's refusal to
+# build changeset tags, so nothing here stops an early upload any more: the
+# checklist does (step 18, day 15 of the forum window or later).
+import_plan = "https://wiki.openstreetmap.org/wiki/Thunder_Bay/Address_Import"
 
 # The source shouts. Title-cased on the export path only, so street_raw keeps
 # the source spelling and conflation is untouched. Swept over all 1,133 distinct

@@ -1,21 +1,19 @@
-<!-- DRAFT, not published. Target page: https://wiki.openstreetmap.org/wiki/Thunder_Bay/Address_Import
-     Fill every {{TBD}} from the baseline run before publishing (IMPORT_CHECKLIST.md, step 4). -->
 {{Map of imports| name = Thunder Bay Address Points
 | description = Human-reviewed import of missing civic address points from the City of Thunder Bay open data, with Fort William First Nation's addresses as a separate phase gated on contacting the Nation.
-| user = [[https://www.openstreetmap.org/user/skfd%20imports|skfd imports]]
+| user = [https://www.openstreetmap.org/user/skfd%20imports skfd imports]
 | status = Proposed
 }}
 
 == Status ==
 
-* '''Stage:''' Proposed. Community review open from {{TBD: date of forum post}}; nothing has been uploaded.
-* '''Last revised:''' {{TBD}}
+* '''Stage:''' Proposed. Community review open from 2026-11-08 to 2026-11-22; nothing has been uploaded.
+* '''Last revised:''' 2026-11-08
 * '''Contact:''' toronto@comentality.com
 * '''OSM import account:''' [[osm:user/skfd imports|skfd imports]], dedicated to imports; the maintainer's personal account ([[User:skfd|skfd]]) uploads nothing from this tooling.
-* '''Discussion:''' {{TBD: forum thread link}} on the OSM Community Forum, tagged <code>import</code>.
+* '''Discussion:''' [https://community.openstreetmap.org/t/thunder-bay-address-import-proposal-for-review/149917 forum thread] on the OSM Community Forum, tagged <code>import</code>.
 * '''Tooling:''' [https://github.com/skfd/thunder-bay-address-import thunder-bay-address-import] (this city's configuration) on the engine [https://github.com/skfd/address-importer-friend address-importer-friend], the same engine that imported [[Toronto/Import/AddressPoints|Toronto]] (~449,000 addresses, 2026) and maintains [[Guelph/Address_Import/Continuous|Guelph]].
 
-This proposal follows the [[Import/Guidelines|OSM Import Guidelines]]. The 14-day review window opens with the forum post; no upload happens before it closes.
+This proposal follows the [[Import/Guidelines|OSM Import Guidelines]]. The 14-day review window opened with the forum post on 2026-11-08; no upload happens before it closes on 2026-11-22.
 
 == Land acknowledgement ==
 
@@ -82,7 +80,7 @@ Each phase can ship on its own and be reverted on its own.
 
 The City's address layer includes 378 points on Fort William First Nation land, a separate jurisdiction from the City. They have no City parcel number. The City publishes them under the same open licence, so the licence permits importing them. But we must ask the Nation, since it is a separate jurisdiction. There is no Canadian OSM import precedent we could find either way.
 
-* A letter went to FWFN Lands & Governance on 2026-11-08 asking: whether the Nation is comfortable with the addresses being in OSM; who assigns them; what the road the City lists as "Squaw Bay Road" is called today; and whether there is a process to follow.
+* A letter went to FWFN Lands & Governance on 2026-11-08 asking: whether the Nation is comfortable with the addresses being in OSM; who assigns them; and whether there is a process to follow.
 * '''If the Nation says no''', Phase 3 does not happen, and this page says so.
 * '''If the Nation asks for changes''' (names, spellings, a subset), we make them.
 * '''If there is no reply''' after 30 days, we skip Phase 3.

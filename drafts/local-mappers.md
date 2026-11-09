@@ -1,8 +1,7 @@
-# Notes to local mappers — DRAFT, not sent
+# Notes to local mappers — SENT 2026-11-08
 
-Send as OSM messages from your personal account (`skfd`), a few days before the
-forum post. These are the two names the 2026-08-16 entry-state probe found
-(`onboarding/entry-state-2026-08-16.json`).
+Sent as OSM messages from `skfd`, after the forum post, to the two names the
+2026-08-16 entry-state probe found (`onboarding/entry-state-2026-08-16.json`).
 
 - **Matthew Darwin** (<https://www.openstreetmap.org/user/Matthew%20Darwin>):
   did the 2018 CanVec rename/retag across Thunder Bay, and is active across
@@ -12,15 +11,17 @@ forum post. These are the two names the 2026-08-16 entry-state probe found
 
 ---
 
-**Subject:** Thunder Bay address import, before I post it
+**Subject:** Thunder Bay address import: your view before anything uploads
 
 Hi {name},
 
-You've mapped in Thunder Bay, so I wanted you to hear about this before the
-forum does. I'm preparing an import of the civic addresses OSM is missing
-there, from the City's open address data: create-only, reviewed by hand, one
-tile per changeset, on the same tooling I used for Toronto this year. Plan:
-{wiki link}.
+You've mapped in Thunder Bay, so I wanted you to hear about this from me
+directly. I'm preparing an import of the civic addresses OSM is missing there,
+from the City's open address data: create-only, reviewed by hand, one tile per
+changeset, on the same tooling I used for Toronto this year.
+
+Plan: https://wiki.openstreetmap.org/wiki/Thunder_Bay/Address_Import
+Forum thread: https://community.openstreetmap.org/t/thunder-bay-address-import-proposal-for-review/149917
 
 A few things I'd especially value your view on:
 - What OSM has in Thunder Bay is almost all CanVec interpolation (6,604
@@ -33,8 +34,8 @@ A few things I'd especially value your view on:
 - Anything about Thunder Bay addresses or street names I should know before
   starting? For example, renamed streets, or areas the City's data gets wrong.
 
-If you'd like to review a tile before it goes up, I'd be glad of it. The forum
-post goes up in a few days; happy to hold it if you want more time.
+If you'd like to review a tile before it goes up, I'd be glad of it. Nothing
+uploads before the 14-day review window closes.
 
 Thanks,
 skfd
