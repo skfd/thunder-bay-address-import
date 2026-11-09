@@ -16,6 +16,14 @@ neighbourhood_name_field = "WARD_NAME"
 # included, as their own phase gated on contacting the Nation; README).
 orphan_name = "Fort William First Nation"
 
+[tiles]
+# Frozen 2026-11-08 for the whole import (README, Decisions): tile ids do not
+# survive a rebuild, so the 122 tiles built that day (ward layer + source
+# snapshot 18) are the ones every run, review and changeset refers to. New
+# source snapshots still reach new runs through each tile's polygon. A copy of
+# the layer is committed in frozen-tiles/ in case data/ is lost.
+frozen = "Thunder Bay's import runs are tied to the 122 tiles built 2026-11-08."
+
 [source]
 sqlite_path = "C:/Users/kk/Code/ontario-address-changes/data/thunder-bay/thunder-bay.db"
 

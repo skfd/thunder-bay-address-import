@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-11-08T17:17:03.377085+00:00",
+  "source_snapshot_id": 18,
+  "neighbourhoods_sha256": "48a2c5c6ee72e5e65dc5c78f5f89927ad82b5ba5c0c0a2dbe945e73cede5379f",
+  "threshold": 500,
+  "merge_floor": 250,
+  "merge_soft_ceiling": 500,
+  "merge_hard_ceiling": 750,
+  "tile_count": 122,
+  "pre_merge_tile_count": 299,
+  "merges": 177,
+  "below_floor_remaining": 9,
+  "total_addresses": 45102,
+  "assigned_after": 45102,
+  "orphan_count": 0,
+  "orphan_pct": 0.0,
+  "skipped_empty": [],
+  "build_duration_s": 6.18,
+  "total_duration_s": 6.34
+}

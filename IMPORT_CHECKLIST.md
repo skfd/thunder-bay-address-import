@@ -71,10 +71,15 @@ Found on the way, and now in the drafts:
 
 ## Phase 3 — Engine work before announcing (Claude)
 
-- [ ] **11.** **Engine TODO §7: tile ids must survive a rebuild.** The engine's
-      TODO says "before announcing any import". Today a tile rebuild orphans
-      every run's tile. Build the spatial re-association, or decide explicitly
-      to freeze Thunder Bay's tiles for the whole import.
+- [x] **11.** **Engine TODO §7: tile ids must survive a rebuild.** Decided
+      2026-11-08: freeze Thunder Bay's tiles for the whole import, instead of
+      building re-association. `[tiles] frozen` in `config.toml` makes
+      `tiles_build` refuse to run (engine `d83652e1`). The 122 tiles of
+      2026-11-08 stay. A copy is in [`frozen-tiles/`](frozen-tiles/). If
+      `data/` is lost, copy `tiles.json` back to `data/thunder-bay/` and
+      `meta.json` to `data/thunder-bay/tiles/`. New snapshots still reach
+      new runs through each tile's polygon. Only `/map`'s address counts go
+      stale.
 - [x] **12.** The 9 `fort-william-first-nation-*` runs from the baseline were
       deleted the same night (2026-11-08), so the review UI holds no FWFN
       candidate one click from upload. Their numbers are kept in step 4 (361

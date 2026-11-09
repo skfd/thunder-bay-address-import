@@ -30,6 +30,10 @@ forum post and the letters are in [`drafts/`](drafts/), unsent.
   on it in the City's data. The word is a slur and much of Canada has been
   renaming it; the letter asks FWFN what the road is called. Until they
   answer, those 84 stay in the FWFN phase's review queue.
+- **The tiles are frozen for the whole import** (decided 2026-11-08). Tile
+  ids don't survive a rebuild, so `[tiles] frozen` in `config.toml` stops
+  `tiles_build`. The 122 tiles of 2026-11-08 are committed in
+  [`frozen-tiles/`](frozen-tiles/).
 - **Land acknowledgement** in the wiki page and the forum post (above). It
   names the land and Fort William First Nation, and the treaty only as a
   place: no signatories, no year (decided 2026-11-08). Its second sentence
