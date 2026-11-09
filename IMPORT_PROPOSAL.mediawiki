@@ -7,7 +7,7 @@
 == Status ==
 
 * '''Stage:''' Proposed. Community review open from 2026-11-08 to 2026-11-22; nothing has been uploaded.
-* '''Last revised:''' 2026-11-08
+* '''Last revised:''' 2026-11-09
 * '''Contact:''' toronto@comentality.com
 * '''OSM import account:''' [[osm:user/skfd imports|skfd imports]], dedicated to imports; the maintainer's personal account ([[User:skfd|skfd]]) uploads nothing from this tooling.
 * '''Discussion:''' [https://community.openstreetmap.org/t/thunder-bay-address-import-proposal-for-review/149917 forum thread] on the OSM Community Forum, tagged <code>import</code>.
@@ -121,7 +121,7 @@ All uploads are '''nodes'''.
 |-
 | <code>addr:unit</code> || <code>ADDRESS</code> || Only on the 14 Caribou Crescent doors whose number the City writes as <code>270-1</code>.
 |-
-| <code>addr:source</code> || static || <code>City of Thunder Bay Open Data</code>
+| <code>source:addr</code> || static || <code>City of Thunder Bay Open Data</code>. '''Changed 2026-11-09''', before any upload, from <code>addr:source</code>: <code>source:addr</code> is the established spelling (the wiki's <code>source:&lt;key&gt;</code> form, 13.3M uses on taginfo against 98k for <code>addr:source</code>, whose wiki page only redirects to ''historic'').
 |-
 | <code>addr:postcode</code> || OSM || Only copied from a same-address POI already in OSM. The City publishes no postcodes, and none are invented.
 |}
