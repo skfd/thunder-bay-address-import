@@ -22,9 +22,14 @@ there, from the City's open address data: create-only, reviewed by hand, one
 tile per changeset, on the same tooling I used for Toronto this year. Plan:
 {wiki link}.
 
-Two things I'd especially value your view on:
-- Matching CanVec address nodes are left as they are. Is that right, or is
-  there a local preference?
+A few things I'd especially value your view on:
+- What OSM has in Thunder Bay is almost all CanVec interpolation (6,604
+  range ways). I'd like to upload the City's points, then retire the ranges
+  each block face no longer needs, as a separate reviewed step. Would you
+  rather keep them, or do it differently?
+- OSM already has "Squaw Bay Road" on two CanVec address nodes on Fort William
+  First Nation land. I've asked the Nation what the road is called. Do you
+  know?
 - Anything about Thunder Bay addresses or street names I should know before
   starting? For example, renamed streets, or areas the City's data gets wrong.
 

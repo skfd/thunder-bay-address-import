@@ -42,11 +42,19 @@ number_from = "props:ADDRESS"
 # proposal would be wrong (their inclusion in the city layer is itself a
 # question); the ward-fabric orphan bucket isolates them spatially too.
 municipality = "props:CITY"
-# No unit field (confirmed by the tracker against the live field list;
-# 14 rows embed "<number>-<unit>" in ADDRESS at 0.03% — noted, not parsed).
+# No unit field (confirmed by the tracker against the live field list). The
+# 14 rows that embed "<number>-<unit>" in ADDRESS are three Caribou Cres
+# townhouse blocks (270-1..5, 274-1..5, 276-1..4, about 6 m apart): split
+# into civic + addr:unit, decided 2026-11-08, one node per door.
+unit = "number-after-hyphen"
 # No status field, no ranges. TYPE ("Regular Property" / "City Owned") is a
 # property-ownership class, NOT Toronto's address_class semantics (no Land
 # Entrance analogue) — undeclared for-cause.
+
+[units]
+# Only the 14 Caribou Cres rows carry a unit. Sequential 1..5 at door spacing,
+# so t2/units.py keeps them as one node per door with addr:unit.
+policy = "per-door-or-collapse"
 
 [run_defaults]
 # Dense Fort William cell (1,394 rows) for first test runs.

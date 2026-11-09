@@ -14,12 +14,28 @@ Where things are:
 - [x] **1.** Decide on Fort William First Nation: included, as its own gated
       phase (README).
 - [x] **2.** Name the FWFN tiles: `[city] orphan_name`, engine `ac0834ce`.
-- [ ] **3.** Refresh the OSM extract (`python -m t2.osm_refresh`) and build
-      the tiles (`python -m t2.tiles_build`). Check that the FWFN tiles hold
-      exactly the 378 `CITY = 'FWFN'` rows.
-- [ ] **4.** Run the baseline over every tile (`python -m t2.run_for_all`),
-      then fill the `{{TBD}}` numbers in the wiki draft and `{MISSING}` in the
-      forum draft.
+- [x] **3.** Refresh the OSM extract and build the tiles (2026-11-08). The
+      extract is the 2026-11-06 Geofabrik PBF. 122 tiles. All 378 FWFN rows
+      are in 9 FWFN-only tiles. Getting there took two engine fixes
+      (`7ba960ed`): small FWFN tiles were being merged into Westfort tiles,
+      and Westfort's tile polygon had lost the hole around FWFN land.
+- [x] **4.** Baseline over every tile (2026-11-08): 45,098 candidates; 322
+      MATCH, 27 MATCH_FAR, **44,740 MISSING** (44,379 City + 361 FWFN), 9
+      skipped for having no civic number (engine `f46ba360`); 894 waiting
+      for review. Numbers filled into the drafts.
+
+Found on the way, and now in the drafts:
+- **OSM's Thunder Bay addressing is CanVec interpolation.** 6,604 range
+  ways, whose endpoints are 12,763 of the 12,950 address nodes. The engine
+  ignores endpoints when matching, so nearly every City address is MISSING,
+  and the new points would sit alongside the ranges. The wiki draft proposes
+  points first, then retiring fully covered ranges as a separate reviewed
+  step (§ CanVec interpolation).
+- **"Squaw Bay Road" is already in OSM**, on 2 CanVec nodes on FWFN land.
+- **4 City addresses sit exactly on an edge between two ward tiles**:
+  147 Amelia St W, 502 Norah St S, 130 Inglewood Cres, 111 Machar Ave. They
+  are in two runs each, so upload them from one run and reject them in the
+  other.
 
 ## Phase 1 — Read the baseline (you, ~1 hour)
 
@@ -29,18 +45,28 @@ Where things are:
 - [ ] **6.** Read one dense tile's review queue end to end, especially
       `MATCH_FAR` and `nearby_street_mismatch`. That's where CanVec spelling
       variants will show.
-- [ ] **7.** Pick the pilot tile: one dense City tile, 250–750 candidates,
-      **not** an FWFN tile. Write its name into the wiki draft.
+- [x] **7.** Pilot tile: `mckellar-sw-sw-ne`, downtown Fort William, 495
+      candidates, 493 missing (confirmed 2026-11-08).
 
 ## Phase 2 — Decisions only you can make
 
-- [ ] **8.** **The FWFN wait.** How long after the letter before Phase 3 can
-      go ahead without a reply, and whether it can at all. The research
-      suggested ≥30 days, a phone call around day 30, and going ahead around
-      day 45. That's a suggestion, not an OSM norm. Write your answer into the
-      letter (`{wait}`) and the wiki draft.
-- [ ] **9.** **The `123-4` numbers** (14 rows): leave as an open question on the
-      wiki (as drafted), or decide now.
+- [x] **8.** FWFN wait: 30 days; no reply means Phase 3 is skipped
+      (2026-11-08).
+- [x] **9.** `270-1` numbers: split into `addr:housenumber` + `addr:unit`
+      (2026-11-08). Engine `32528ac8`, `[source_fields] unit =
+      "number-after-hyphen"`, `[units] policy = "per-door-or-collapse"`. The
+      14 Caribou Cres rows are 14 door nodes; nothing else moved.
+- [x] **9a.** CanVec ranges: the import doesn't touch interpolation. Cleanup
+      comes later through against-interpolation (MapRoulette, line by line),
+      with its own forum post. Needs a `config.thunder-bay.toml` there when
+      the time comes.
+- [x] **9b.** Land acknowledgement: version D (2026-11-08). It names the land
+      and FWFN, mentions the treaty only as a place, and adds our own
+      sentence: First Nations should have more say in, and ownership of, how
+      their traditional lands beyond their reserves are developed.
+- [x] **9c.** [Contributors#Canada](https://wiki.openstreetmap.org/wiki/Contributors#Canada):
+      the Thunder Bay entry now carries the licence's required sentence and
+      the new licence URL (saved by Skfd 2026-11-08 18:32 UTC).
 - [ ] **10.** Read all four drafts. Change anything that doesn't sound like you.
 
 ## Phase 3 — Engine work before announcing (Claude)
@@ -49,9 +75,11 @@ Where things are:
       TODO says "before announcing any import". Today a tile rebuild orphans
       every run's tile. Build the spatial re-association, or decide explicitly
       to freeze Thunder Bay's tiles for the whole import.
-- [ ] **12.** Hold the 84 "Squaw Bay Rd" addresses and the 8 number-less FWFN
-      rows out of any run, whatever else happens. Check this in the FWFN tiles'
-      review queue.
+- [x] **12.** The 9 `fort-william-first-nation-*` runs from the baseline were
+      deleted the same night (2026-11-08), so the review UI holds no FWFN
+      candidate one click from upload. Their numbers are kept in step 4 (361
+      missing, 8 skipped). Before Phase 6, re-run those tiles with fresh data
+      and the Nation's answers.
 
 ## Phase 4 — Outreach (you)
 
@@ -86,7 +114,11 @@ Order matters: FWFN and the local mappers hear from you before the forum does.
 - [ ] **22.** Upload only when step 8's condition is met. Apply anything the
       Nation asked for: names, spellings, a subset. If they said no, write that
       on the wiki and drop the phase.
-- [ ] **23.** Separate changesets, the FWFN tiles only.
+- [ ] **23.** Separate changesets, the FWFN tiles only. The comment template
+      (`[upload] changeset_comment_template`) stamps them "Thunder Bay Open
+      Data address import". The data is the City's, so that's accurate, but
+      you may want a comment that also names Fort William First Nation for
+      this phase.
 
 ## Phase 7 — Close and maintain
 

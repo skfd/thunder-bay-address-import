@@ -30,42 +30,39 @@ Drive, Chippewa Road and others. The City publishes them under its open data
 licence. I did not want to add addresses on your Nation's land without asking
 first, so I am writing before doing anything.
 
-I would be grateful for your guidance on four things:
+I would be grateful for your guidance on five things:
 
 1. **Is Fort William First Nation comfortable with these addresses being added
    to OpenStreetMap?** If not, we will leave them out, and say so on the
    project's public page.
 2. **Who assigns civic addresses on FWFN land: the Nation, or the City under
    an agreement?** I want to describe the source correctly.
-3. **What is the current name of the road the City's data lists as "Squaw Bay
+3. **Does the Nation keep its own address records?** If so, and if you would
+   be willing to share them, we would much rather use the Nation's own data
+   than the City's copy.
+4. **What is the current name of the road the City's data lists as "Squaw Bay
    Road"?** We will not add that name. We will use whatever name the Nation
    uses, or none until we hear from you.
-4. **Is there a process or a person you would like us to go through,** or
+5. **Is there a process or a person you would like us to go through,** or
    anything you would like done differently, such as a different set of
    addresses or different street spellings?
 
-Nothing on FWFN land will be added until we have heard from you, or until at
-least {wait} days have passed and I have also tried to reach you by phone. Every
-addition is reviewed by a person, can be traced back to its source and undone,
-and we will remove anything promptly if the Nation asks. The full plan is
-public at {wiki link}.
+Nothing on FWFN land will be added until we have heard from you. If we have
+not heard back within 30 days, we will leave these addresses out. Every
+addition is reviewed by a person and can be traced back to its source. The full plan is public at {wiki link}.
 
 Thank you for your time. I am happy to talk by phone or meet if that is easier.
 
 Kind regards,
-{name}
+Konstantin Koniev
 toronto@comentality.com
 
 ---
 
 ## Notes for the operator (not part of the letter)
 
-- **`{wait}` is your decision.** The OSM Import Guidelines require only 14 days
-  of community review and say nothing about Indigenous governments. The
-  research suggested at least 30 days, a phone follow-up around day 30, and
-  going ahead around day 45 if there is still no reply. Those are a
-  suggestion, not a norm. A stricter option is not to upload the FWFN phase
-  at all without a reply.
+- **Wait: 30 days, decided 2026-11-08.** If there is no reply by then, the
+  FWFN phase is skipped (wiki § Fort William First Nation).
 - **What precedent there is** (research 2026-11-07):
   - No Canadian OSM import found that consulted a First Nation or left out
     reserve land.

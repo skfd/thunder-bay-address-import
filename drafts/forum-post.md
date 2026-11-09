@@ -17,18 +17,18 @@ I'd like to propose an import of the civic addresses OSM is missing in
 **Thunder Bay**, from the City of Thunder Bay's open address data. The full
 plan is on the wiki: {wiki link}.
 
-*Thunder Bay is built on the traditional territory of the Anishinabek,
-including the Ojibwa of Fort William First Nation, signatory to the
-Robinson-Superior Treaty of 1850, and we acknowledge the contributions of the
-Métis peoples. (Wording from the City of Thunder Bay's
-[land acknowledgement](https://www.thunderbay.ca/city-hall/history-heritage-and-records/history-of-thunder-bay/).)*
+*Thunder Bay is on the traditional lands of the Anishinaabe peoples, including Fort William First Nation, within the Robinson-Superior Treaty territory, and is part of the historic Métis homeland. First Nations should have more say in, and more ownership of, how their traditional lands beyond their reserves are developed, including the land Thunder Bay stands on.* (The first sentence adapts the City of Thunder Bay's
+[Deepening Understanding](https://www.thunderbay.ca/city-hall/indigenous-relations/deepening-understanding/) page.)
 
 **What and how much**
-- The City publishes 45,102 address points. After conflation against a fresh
-  Geofabrik extract, about {MISSING} are not in OSM. Most of the city has no
-  per-address data today beyond old CanVec nodes.
+- The City publishes 45,102 address points. Against the 2026-11-06 Geofabrik
+  extract, 44,379 City addresses are not in OSM (99%). What OSM has today is
+  almost entirely CanVec 6.0 interpolation: 6,604 odd/even range ways, whose
+  endpoints are 12,763 of the city's 12,950 address nodes.
 - Create-only: new address nodes with `addr:housenumber`, `addr:street` and
   `addr:source`. No deletions, no edits to existing objects, no buildings.
+  The CanVec ranges are left alone; retiring them is a later, separate
+  effort, reviewed line by line through MapRoulette, with its own forum post.
 - Every run is reviewed by a person before upload. One tile per changeset,
   from the dedicated `skfd imports` account, tagged `import=yes` and with
   `import_plan`.
@@ -41,15 +41,10 @@ The City's data also includes 378 addresses on Fort William First Nation land.
 They're a separate phase: I've written to the Nation's Lands & Governance
 office, and none of them will be uploaded until FWFN has had the chance to
 answer. If they'd rather not, they stay out. 84 of them are on a road the City
-lists as "Squaw Bay Road"; that name won't be uploaded, and we'll use whatever
-the Nation calls it.
+lists as "Sq**w Bay Road"(!!!, even google map lists it like that)
 
 **Questions where local input would help**
-1. CanVec address nodes that match are left alone. Is a cleanup of them wanted
-   later?
-2. 14 City numbers look like `123-4` (a unit after a hyphen). Split them into
-   `addr:unit`, upload them as they are, or skip them?
-3. Should nodes inside the city carry `addr:city=Thunder Bay`, or stay without
+* Should nodes inside the city carry `addr:city=Thunder Bay`, or stay without
    it as in Toronto?
 
 The review window is 14 days from today. Pilot first, then ward by ward. I'm

@@ -8,12 +8,8 @@ published, no uploads made. What to do next, in order:
 [`IMPORT_CHECKLIST.md`](IMPORT_CHECKLIST.md). Drafts of the wiki page, the
 forum post and the letters are in [`drafts/`](drafts/), unsent.
 
-> "We acknowledge that Thunder Bay is built on the traditional territory of
-> the Anishinabek, which includes the Ojibwa of Fort William First Nation,
-> signatory to the Robinson-Superior Treaty of 1850. We also acknowledge the
-> contributions of the Métis peoples." — the City of Thunder Bay's
-> [land acknowledgement](https://www.thunderbay.ca/city-hall/history-heritage-and-records/history-of-thunder-bay/),
-> quoted as published.
+> Thunder Bay is on the traditional lands of the Anishinaabe peoples, including Fort William First Nation, within the Robinson-Superior Treaty territory, and is part of the historic Métis homeland. First Nations should have more say in, and more ownership of, how their traditional lands beyond their reserves are developed, including the land Thunder Bay stands on.
+> (The first sentence adapts the City of Thunder Bay's [Deepening Understanding](https://www.thunderbay.ca/city-hall/indigenous-relations/deepening-understanding/) page.)
 
 ## Decisions (2026-11-07)
 
@@ -34,10 +30,15 @@ forum post and the letters are in [`drafts/`](drafts/), unsent.
   on it in the City's data. The word is a slur and much of Canada has been
   renaming it; the letter asks FWFN what the road is called. Until they
   answer, those 84 stay in the FWFN phase's review queue.
-- **Land acknowledgement** in the wiki page and the forum post: the City's
-  own published wording, quoted verbatim and linked (above), not one of our
-  own. FWFN's website publishes none. Like the City's, it names no specific
-  Métis organisation.
+- **Land acknowledgement** in the wiki page and the forum post (above). It
+  names the land and Fort William First Nation, and the treaty only as a
+  place: no signatories, no year (decided 2026-11-08). Its second sentence
+  is ours, not the City's: First Nations should have more say in, and more
+  ownership of, how their traditional lands beyond their reserves are
+  developed, the city included. The credit says so, so the
+  City isn't read as its source. It claims nothing on FWFN's behalf; the
+  letter is unanswered. FWFN's website publishes no acknowledgement of its
+  own. Like the City's, it names no specific Métis organisation.
 
 The pipeline lives in the engine repo,
 [`address-importer-friend`](https://github.com/skfd/address-importer-friend)
