@@ -98,7 +98,8 @@ All of it went out the same night, 2026-11-08, rather than spread over days.
 - [x] **13.** Wiki page published 2026-11-08 (04:33 UTC):
       <https://wiki.openstreetmap.org/wiki/Thunder_Bay/Address_Import>,
       status Proposed. `IMPORT_PROPOSAL.mediawiki` matches what was saved.
-- [ ] **13a.** Add the page to [[Import/Catalogue]].
+- [x] **13a.** Listed on [Import/Catalogue](https://wiki.openstreetmap.org/wiki/Import/Catalogue)
+      under Ongoing Imports, Semi-Automated, status Proposed (2026-11-08).
 - [x] **14.** FWFN letter sent 2026-11-08 from toronto@comentality.com. No
       reply by **2026-12-08** means Phase 6 is skipped.
 - [x] **15.** Notes to Matthew Darwin and eireidium sent from `skfd`
